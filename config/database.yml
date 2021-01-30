@@ -19,4 +19,4 @@ test:
 ## If you plan on deploying to Heroku, the setup below will make sure when you deploy to heroku it will be pointing to your heroku database.
 production:
   <<: *default
-  url: <%= ENV['https://p4-blog.herokuapp.com//'] %>
+  url: <%= ENV['https://git.heroku.com/p4-blog.git'] %>
